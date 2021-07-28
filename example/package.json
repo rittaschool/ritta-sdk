@@ -1,6 +1,6 @@
 {
   "name": "@ritta/ritta-module-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ritta's SDK usage example",
   "main": "src/index.js",
   "type": "module",
