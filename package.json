@@ -1,0 +1,30 @@
+{
+  "name": "@ritta/sdk",
+  "version": "1.0.2",
+  "description": "Ritta's SDK for modules",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/rittaschool/ritta-sdk",
+  "author": "Ritta Project",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:publish": "tsc; npm publish --access public"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "fastify": "^3.19.2",
+    "mongoose": "^5.13.3"
+  }
+}
