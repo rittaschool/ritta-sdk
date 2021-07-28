@@ -5,6 +5,4 @@ export abstract class RittaModule {
   constructor(sdk: Ritta) {
     this.sdk = sdk;
   }
-
-  abstract enable(): void;
 }

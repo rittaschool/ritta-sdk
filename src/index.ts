@@ -3,7 +3,7 @@ import { RittaDatabase, Model, Document } from './database.js';
 import { RittaModule } from './module.js';
 import { RittaAuth, Strategy } from './auth.js';
 import { RittaRoles, Role, RolePermissions } from './roles.js';
-import { RittaModules, Module } from './modules.js';
+import { RittaModules } from './modules.js';
 
 export default {
   Ritta,
@@ -17,5 +17,4 @@ export default {
   Role,
   RolePermissions,
   RittaModules,
-  Module,
 };

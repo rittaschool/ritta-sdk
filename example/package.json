@@ -1,6 +1,6 @@
 {
   "name": "@ritta/ritta-module-example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ritta's SDK usage example",
   "main": "src/index.js",
   "type": "module",
@@ -11,7 +11,7 @@
     "build:publish": "tsc; npm publish --access public"
   },
   "dependencies": {
-    "@ritta/sdk": "^1.0.10",
+    "@ritta/sdk": "^1.0.14",
     "typescript": "^4.3.5"
   },
   "ritta": {

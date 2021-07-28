@@ -9,10 +9,10 @@
   dependencies:
     ajv "^6.12.6"
 
-"@ritta/sdk@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@ritta/sdk/-/sdk-1.0.10.tgz#8ecff4b1e6c96e17a856e37b6ad78a480c3bf536"
-  integrity sha512-ZqZmtGylcK9Mpx+OdtBJgD7WBW+23K6X+Q0Eh3Z4oCuYnSeZI7Rp9WCxef7BP+X73sjqad1ocrjJQjSsZ5uT4A==
+"@ritta/sdk@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@ritta/sdk/-/sdk-1.0.14.tgz#22c36015a17089c3ef8e7b80c6ff91ea442389a2"
+  integrity sha512-WZ5T523om3DuOi/mThoEcAiLGXHjFBMwP0bB0cNhA6JYOIksv90omEi9LVvhbRyHD70/pue+gGSOzI8gv3LryQ==
   dependencies:
     "@types/pino" "^6.3.11"
     fastify "^3.19.2"
