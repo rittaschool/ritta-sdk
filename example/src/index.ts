@@ -5,10 +5,12 @@ export default class ExampleModule extends RittaModule {
   constructor(sdk: Ritta) {
     super(sdk);
     this.sdk.logger.info(this.sdk.modules().listModules());
-    this.sdk.database().model('User')
-    .catch((e) => {
-      this.sdk.logger.error(e);
-      // Throws error because no permission!
-    });
+    this.sdk
+      .database()
+      .model('User')
+      .catch((e) => {
+        this.sdk.logger.error(e);
+        // Throws error because no permission!
+      });
   }
 }
