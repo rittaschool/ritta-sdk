@@ -1,8 +1,8 @@
 {
   "name": "@ritta/ritta-module-example",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Ritta's SDK usage example",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "type": "module",
   "repository": "https://github.com/rittaschool/ritta-sdk",
   "author": "Ritta Project",
