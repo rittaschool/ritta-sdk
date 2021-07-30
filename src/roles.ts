@@ -5,14 +5,14 @@ export abstract class RittaRoles {
 }
 
 export abstract class Role {
-  abstract get name(): string;
-  abstract get id(): number;
+  abstract name(): Promise<string>;
+  abstract id(): Promise<number>;
   abstract setName(name: string): Promise<void>;
   abstract delete(): Promise<void>;
   abstract permissions(): Promise<RolePermissions | null>;
 }
 
 export abstract class RolePermissions {
-  abstract get(): string[];
-  abstract set(permissions: string[]): void;
+  abstract get(): Promise<string[]>;
+  abstract set(permissions: string[]): Promise<string[]>;
 }
