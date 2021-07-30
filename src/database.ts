@@ -1,8 +1,8 @@
 import { Schema } from 'mongoose';
 
 export abstract class RittaDatabase {
-  abstract registerModel(name: string, model: Schema): void;
-  abstract model(name: string): Model;
+  abstract registerModel(name: string, model: Schema): Promise<Model>;
+  abstract model(name: string): Promise<Model>;
 }
 
 export abstract class Model {
