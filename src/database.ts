@@ -14,8 +14,8 @@ export abstract class Model {
 }
 
 export abstract class Document {
-  abstract model: Model;
-  abstract data: Promise<object>;
+  abstract get model(): Model;
+  abstract data(): Promise<object>;
   abstract save(): Promise<Document>;
   abstract delete(): Promise<void>;
 }
