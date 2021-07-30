@@ -1,5 +1,6 @@
 export abstract class RittaRoles {
   abstract listRoles(): Promise<Role[]>;
+  abstract role(name: string | number): Promise<Role | null>;
   abstract create(name: string): Promise<Role | null>;
 }
 
