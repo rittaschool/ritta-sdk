@@ -1,6 +1,6 @@
 {
   "name": "@ritta/sdk",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Ritta's SDK for modules",
   "type": "module",
   "main": "dist/index.js",
