@@ -2,7 +2,7 @@ import { FastifyReply, FastifyRequest } from 'fastify';
 
 export abstract class RittaAuth {
   abstract list(): Promise<Strategy[]>;
-  abstract register(): Promise<Strategy | null>;
+  abstract register(): Promise<Strategy>;
 }
 
 export abstract class Strategy {
@@ -11,5 +11,5 @@ export abstract class Strategy {
   abstract showInLogin: boolean;
   abstract bypassMFA: boolean;
   abstract authStart(req: FastifyRequest, reply: FastifyReply): void;
-  abstract callback(req: FastifyRequest): void;
+  abstract callback(req: FastifyRequest): Promise<String | null>;
 }
